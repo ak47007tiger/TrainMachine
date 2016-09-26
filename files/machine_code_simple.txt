@@ -1,0 +1,8 @@
+Mov reg1,0
+Mov reg2,1
+Add reg1,reg2,reg1
+Add reg2,1,reg2
+Cmp reg2,101,reg3
+Jl reg3,2
+Mov reg0,reg1
+Call 0
